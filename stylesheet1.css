@@ -1,0 +1,155 @@
+/* Global */
+.heading {}
+
+/* Page Specific */
+/* Travel Page */
+body#travel-page {}
+body#travel-page .grid-container {}
+
+/* Video Games Page */
+body#videogawm {}
+
+.heading-index {
+    font-family: 'Courier New';
+    text-decoration: underline overline;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.heading-index2 {
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.heading-music {
+    font-family: 'Courier New';
+    text-decoration: underline overline;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.heading-music2 {
+    font-family: 'Courier New';
+	/* font-size: larger; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.heading-travel {
+    font-family: 'Courier New';
+    text-decoration: underline overline;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+body#travel-page .heading {
+
+}
+
+.heading-travel2 {
+    font-family: 'Courier New';
+    text-align: center;
+	font-size: larger;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.heading-videogames {
+    font-family: 'Courier New';
+    text-decoration: underline overline;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.heading-contact {
+    font-family: Courier;
+    text-align: center;
+    font-size: 120px !important;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+.heading {
+    font-family: 'Courier New';
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+body#videoGame-page .card{
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: #333;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-family: 'Courier New';
+    font-weight: bold;
+    padding: 20px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.card-body h5 {
+    flex-grow: 1;
+    text-align: center;    
+}
+
+.card-body img {
+    height: 200px;
+    border-radius: 0 44px 44px 0;
+    mask-image: linear-gradient(to right, transparent, white 35%);
+}
+
+body#travel-page .grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    margin: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
+body#travel-page .grid-container img {
+    width: 100%;
+}
+
+body#music-page .grid-container {
+	display: grid;
+    justify-content: space-evenly;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.iframe {
+    height: 200px;
+	width: 600px;
+}
+
+.form {
+    text-align: center;
+    margin: 50px;
+}
+
+.project-brief-img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
+	height: 400px;
+
+
+}
